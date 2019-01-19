@@ -1,0 +1,4 @@
+com/mycompany/replicamanager4/ApplicationConfig.class
+com/mycompany/replicamanager4/Replica4Resource.class
+replica4/Replica4SingletonLocal.class
+replica4/Replica4Singleton.class

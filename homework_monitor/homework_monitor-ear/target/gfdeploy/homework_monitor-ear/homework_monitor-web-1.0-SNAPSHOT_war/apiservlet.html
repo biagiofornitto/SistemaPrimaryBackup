@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Api Netstat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+         <h1>Pannello di controllo Netstat</h1>
+         <form method ="get" action ="ApiServlet">
+             <h1>Info</h1>
+                   
+                    
+                    <h2>
+                    <input type="submit" name="choice" value="interfacce">
+                    <input type ="submit" name="choice" value="maxuso">
+                    <input type="checkbox" name="runtime" value="true"> check per le info a runtime<br>
+                    </h2>
+            </form>
+        <form method ="get" action ="ApiServlet">
+             <h1>Profilo</h1>
+                   <h2>Scegli interfaccia <input type="text" name="param1" required></h2>
+                    
+                    <h2> <input type ="submit" name="choice" value="profilo">
+                     <input type="checkbox" name="runtime" value="true"> check per le info a runtime<br>
+                    </h2>
+                    
+            </form>
+         <form method ="post" action ="ApiServlet">
+             <h1>Set tempo</h1>
+                   <h2>Tempo in secondi <input type="text" name="secondi" required></h2>
+                    
+                    <h2>
+                   
+                    <input type ="submit" name="choice" value="tempo">
+                   
+            </form>
+            
+          <p><a  href=http://localhost:8080/homework_monitor-web/>Torna indietro</a></p>
+
+            
+       
+    </body>
+</html>

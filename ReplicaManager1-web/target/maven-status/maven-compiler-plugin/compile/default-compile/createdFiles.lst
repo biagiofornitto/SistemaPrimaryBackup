@@ -1,0 +1,4 @@
+com/mycompany/ApplicationConfig.class
+com/mycompany/Replica1Resource.class
+replica1/Replica1Singleton.class
+replica1/Replica1SingletonLocal.class
