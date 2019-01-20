@@ -1,4 +1,7 @@
+replica2/Replica2Singleton.class
+utilities/AckClass.class
 com/mycompany/ApplicationConfig.class
 com/mycompany/Replica2Resource.class
-replica2/Replica2Singleton.class
 replica2/Replica2SingletonLocal.class
+utilities/LogEntryNumRequest.class
+utilities/LogEntry.class

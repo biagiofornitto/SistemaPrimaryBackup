@@ -23,10 +23,10 @@ import javax.servlet.http.HttpServletResponse;
 public class Reader extends HttpServlet {
     
     //api read delle repliche
-    private static final String URL1read= "http://localhost:8080/ReplicaManager1-web/webresources/replica1/query/"; 
-    private static final String URL2read= "http://localhost:8080/ReplicaManager2-web/webresources/replica2/query/"; 
-    private static final String URL3read= "http://localhost:8080/ReplicaManager3-web/webresources/replica3/query/"; 
-    private static final String URL4read= "http://localhost:8080/ReplicaManager4-web/webresources/replica4/query/"; 
+    private static final String URL1read= "http://localhost:8081/ReplicaManager1-web/webresources/replica1/query/"; 
+    private static final String URL2read= "http://localhost:8082/ReplicaManager2-web/webresources/replica2/query/"; 
+    private static final String URL3read= "http://localhost:8083/ReplicaManager3-web/webresources/replica3/query/"; 
+    private static final String URL4read= "http://localhost:8084/ReplicaManager4-web/webresources/replica4/query/"; 
      /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.

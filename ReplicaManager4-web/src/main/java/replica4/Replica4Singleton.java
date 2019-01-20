@@ -42,7 +42,7 @@ public class Replica4Singleton implements Replica4SingletonLocal{
    private Queue<LogEntryNumRequest> codaLog;
    // private final String logFilePath ="C:\\Users\\biagio\\Documents\\NetBeansProjects\\ReplicheApplication\\ReplicheApplication-ejb\\src\\main\\java\\EJB\\LogPrimary";
    // private ArrayList<LogEntryNumRequest> arraylog;
-    private static final String URL1ack= "http://localhost:8080/ReplicaManager1-web/webresources/replica1/ack"; 
+    private static final String URL1ack= "http://localhost:8081/ReplicaManager1-web/webresources/replica1/ack"; 
     
     
     

@@ -1,4 +1,7 @@
 replica3/Replica3SingletonLocal.class
 replica3/Replica3Singleton.class
+utilities/AckClass.class
 com/mycompany/replicamanager3/ApplicationConfig.class
 com/mycompany/replicamanager3/Replica3Resource.class
+utilities/LogEntryNumRequest.class
+utilities/LogEntry.class

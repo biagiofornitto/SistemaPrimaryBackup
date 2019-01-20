@@ -1,4 +1,7 @@
 com/mycompany/replicamanager4/ApplicationConfig.class
-com/mycompany/replicamanager4/Replica4Resource.class
 replica4/Replica4SingletonLocal.class
+utilities/AckClass.class
+com/mycompany/replicamanager4/Replica4Resource.class
+utilities/LogEntryNumRequest.class
 replica4/Replica4Singleton.class
+utilities/LogEntry.class

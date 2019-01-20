@@ -28,7 +28,7 @@ public class SubscriberWriter {
    //private static int number;
    private final static String QUEUE_NAME = "hello";
    private static final String EXCHANGE_NAME = "logs";
-   private static final String URL = "http://localhost:8080/ReplicaManager1-web/webresources/replica1/add"; 
+   private static final String URL = "http://localhost:8081/ReplicaManager1-web/webresources/replica1/add"; 
    //private static final String URL2 = "http://localhost:8080/ReplicheApplication-web/webresources/replica2/add"; 
    public static void main(String[] argv){
          

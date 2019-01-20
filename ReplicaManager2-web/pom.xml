@@ -23,11 +23,7 @@
             <scope>provided</scope>
         </dependency>
        
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>ReplicheApplicationUtilities</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+        
       
         
         <dependency>

@@ -1,4 +1,7 @@
 /home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/replica4/Replica4SingletonLocal.java
 /home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/com/mycompany/replicamanager4/Replica4Resource.java
 /home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/replica4/Replica4Singleton.java
+/home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/utilities/AckClass.java
 /home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/com/mycompany/replicamanager4/ApplicationConfig.java
+/home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/utilities/LogEntryNumRequest.java
+/home/matteo/Scrivania/progetto_finale1/ReplicaManager4-web/src/main/java/utilities/LogEntry.java
