@@ -1,4 +1,4 @@
-create table LogEntries(
+create LogEntries(
 			ID varchar(255) NOT NULL,PRIMARY KEY(ID),
 			tempo varchar(255),Iface varchar(255),
 			MTU varchar(255), 

@@ -29,9 +29,9 @@ import org.json.*;
 public class Replica1Singleton implements Replica1SingletonLocal{
      public String name = "replica1";
     public static int NUMBER_OF_REPLICAS = 4;
-    private final static String PORT = "3307";
+    private final static String PORT = "3306";
     private final static String DB = "db";
-    private final static String hostdb="localhost";
+    private final static String hostdb="172.21.1.3";
     private final static String PASSWORD = "root";
     public static boolean working = true; 
    
@@ -41,15 +41,15 @@ public class Replica1Singleton implements Replica1SingletonLocal{
     private Queue<LogEntryNumRequest> codaLog;
     private Map<String,Integer> mapAck;
     private Map<Integer,Integer> mapAbort;
-    private static final String URL2add= "http://localhost:8082/ReplicaManager2-web/webresources/replica2/add"; 
-     private static final String URL3add= "http://localhost:8083/ReplicaManager3-web/webresources/replica3/add"; 
-     private static final String URL4add="http://localhost:8084/ReplicaManager4-web/webresources/replica4/add"; 
-     private static final String URL2commit = "http://localhost:8082/ReplicaManager2-web/webresources/replica2/commit"; 
-     private static final String URL3commit = "http://localhost:8083/ReplicaManager3-web/webresources/replica3/commit"; 
-     private static final String URL4commit="http://localhost:8084/ReplicaManager4-web/webresources/replica4/commit"; 
-      private static final String URL2abort = "http://localhost:8082/ReplicaManager2-web/webresources/replica2/abort"; 
-     private static final String URL3abort = "http://localhost:8083/ReplicaManager3-web/webresources/replica3/abort"; 
-     private static final String URL4abort="http://localhost:8084/ReplicaManager4-web/webresources/replica4/abort"; 	
+    private static final String URL2add= "http://172.21.1.8:8080/ReplicaManager2-web/webresources/replica2/add"; 
+     private static final String URL3add= "http://172.21.1.9:8080/ReplicaManager3-web/webresources/replica3/add"; 
+     private static final String URL4add="http://172.21.1.10:8080/ReplicaManager4-web/webresources/replica4/add"; 
+     private static final String URL2commit = "http://172.21.1.8:8080/ReplicaManager2-web/webresources/replica2/commit"; 
+     private static final String URL3commit = "http://172.21.1.9:8080/ReplicaManager3-web/webresources/replica3/commit"; 
+     private static final String URL4commit="http://172.21.1.10:8080/ReplicaManager4-web/webresources/replica4/commit"; 
+      private static final String URL2abort = "http://172.21.1.8t:8080/ReplicaManager2-web/webresources/replica2/abort"; 
+     private static final String URL3abort = "http://172.21.1.9:8080/ReplicaManager3-web/webresources/replica3/abort"; 
+     private static final String URL4abort="http://172.21.1.10:8080/ReplicaManager4-web/webresources/replica4/abort"; 	
     
      private static Replica1Singleton instance;
 	

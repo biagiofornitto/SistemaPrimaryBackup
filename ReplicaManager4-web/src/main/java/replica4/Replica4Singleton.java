@@ -33,16 +33,16 @@ import utilities.LogEntryNumRequest;
 public class Replica4Singleton implements Replica4SingletonLocal{
      public String name = "replica4";
     public final static int NUMBER_OF_REPLICAS = 4;
-    private final static String PORT = "3310";
+    private final static String PORT = "3306";
     private final static String DB = "db";
-    private final static String hostdb="localhost";
+    private final static String hostdb="172.21.1.6";
     private final static String PASSWORD = "root";
     public static boolean working = true; 
    
    private Queue<LogEntryNumRequest> codaLog;
    // private final String logFilePath ="C:\\Users\\biagio\\Documents\\NetBeansProjects\\ReplicheApplication\\ReplicheApplication-ejb\\src\\main\\java\\EJB\\LogPrimary";
    // private ArrayList<LogEntryNumRequest> arraylog;
-    private static final String URL1ack= "http://localhost:8081/ReplicaManager1-web/webresources/replica1/ack"; 
+    private static final String URL1ack= "http://172.21.1.7:8080/ReplicaManager1-web/webresources/replica1/ack"; 
     
     
     

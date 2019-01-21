@@ -28,14 +28,13 @@ public class SubscriberWriter {
    //private static int number;
    private final static String QUEUE_NAME = "hello";
    private static final String EXCHANGE_NAME = "logs";
-   private static final String URL = "http://localhost:8081/ReplicaManager1-web/webresources/replica1/add"; 
-   //private static final String URL2 = "http://localhost:8080/ReplicheApplication-web/webresources/replica2/add"; 
+   private static final String URL = "http://172.21.1.7:8080/ReplicaManager1-web/webresources/replica1/add"; 
    public static void main(String[] argv){
          
          try {
             
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("localhost");
+            factory.setHost("172.21.1.2");
             factory.setUsername("guest");
             factory.setPassword("guest");
             Connection connection = factory.newConnection();
