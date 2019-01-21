@@ -1,11 +1,15 @@
 FROM mysql:5.7
 EXPOSE 3306
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=db
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=root
 #CMD create database db;
 #CMD use db;
 #CMD create table LogEntries(ID varchar(255));
 RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/matteobonaccorso/SistemaPrimaryBackup.git
-RUN cd /SistemaPrimaryBackup/
+WORKDIR /SistemaPrimaryBackup/
 RUN cp tabella.sql /docker-entrypoint-initdb.d/tabella.sql
 
 
