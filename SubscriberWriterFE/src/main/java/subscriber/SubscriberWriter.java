@@ -35,7 +35,7 @@ public class SubscriberWriter {
          try {
             
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("localhost");
+            factory.setHost("172.17.0.1");
             Connection connection = factory.newConnection();
             Channel channel = connection.createChannel();
             channel.exchangeDeclare(EXCHANGE_NAME, "fanout");
