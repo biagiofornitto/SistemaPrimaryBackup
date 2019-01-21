@@ -1,6 +1,6 @@
 create table LogEntries(
 			ID varchar(255) NOT NULL,PRIMARY KEY(ID),
-			Timestamp varchar(255),Iface varchar(255),
+			tempo varchar(255),Iface varchar(255),
 			MTU varchar(255), 
 			Met varchar(255), 
 			RX_OK varchar(255),
