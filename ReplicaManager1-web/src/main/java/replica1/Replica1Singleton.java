@@ -47,7 +47,7 @@ public class Replica1Singleton implements Replica1SingletonLocal{
      private static final String URL2commit = "http://172.21.1.8:8080/ReplicaManager2-web/webresources/replica2/commit"; 
      private static final String URL3commit = "http://172.21.1.9:8080/ReplicaManager3-web/webresources/replica3/commit"; 
      private static final String URL4commit="http://172.21.1.10:8080/ReplicaManager4-web/webresources/replica4/commit"; 
-      private static final String URL2abort = "http://172.21.1.8t:8080/ReplicaManager2-web/webresources/replica2/abort"; 
+      private static final String URL2abort = "http://172.21.1.8:8080/ReplicaManager2-web/webresources/replica2/abort"; 
      private static final String URL3abort = "http://172.21.1.9:8080/ReplicaManager3-web/webresources/replica3/abort"; 
      private static final String URL4abort="http://172.21.1.10:8080/ReplicaManager4-web/webresources/replica4/abort"; 	
     
