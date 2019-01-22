@@ -213,7 +213,7 @@ public class Replica1Singleton implements Replica1SingletonLocal{
     
          
                 Client c = Client.create();  
-                c.setReadTimeout(15000);
+                c.setReadTimeout(30000);
                 WebResource webResourcePost;
                 ClientResponse rispostaPost;
                 
