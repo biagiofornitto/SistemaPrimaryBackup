@@ -1,7 +1,7 @@
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/replica1/Replica1Singleton.java
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/com/mycompany/Replica1Resource.java
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/utilities/LogEntry.java
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/com/mycompany/ApplicationConfig.java
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/utilities/LogEntryNumRequest.java
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/utilities/AckClass.java
-/home/matteo/Scrivania/progetto_finale1/ReplicaManager1-web/src/main/java/replica1/Replica1SingletonLocal.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/utilities/AckClass.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/replica1/Replica1SingletonLocal.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/com/mycompany/Replica1Resource.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/utilities/LogEntry.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/com/mycompany/ApplicationConfig.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/replica1/Replica1Singleton.java
+/home/matteo/SistemaPrimaryBackup/ReplicaManager1-web/src/main/java/utilities/LogEntryNumRequest.java

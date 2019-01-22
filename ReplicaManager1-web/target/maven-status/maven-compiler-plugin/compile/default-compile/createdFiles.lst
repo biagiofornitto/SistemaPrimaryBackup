@@ -1,5 +1,5 @@
-com/mycompany/Replica1Resource.class
 replica1/Replica1Singleton.class
+com/mycompany/Replica1Resource.class
 utilities/AckClass.class
 replica1/Replica1SingletonLocal.class
 com/mycompany/ApplicationConfig.class
