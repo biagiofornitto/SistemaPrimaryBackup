@@ -6,6 +6,6 @@ Procedure per l'avvio del SistemaPrimaryBackup:
 4. Mentre i container vengono creati si può avviare il progetto enterprise "homwork_monitor" con netbeans o in qualsiasi altro modo, questo progetto può essere avviato prima, durante o dopo l'istruzione 3
 5. aspettare qualche minuto affinchè i container vengano creati e avviati
 6. Nella pagina che si aprirà sul browser testare l'applicazione mediante le api messe a disposizione, se la pagina non viene aperta digitare sul browser "localhost:8086/ReaderFE/" e continuare
-7. Per la documentazione completa vedere il pdf "Documentazione.pdf".
+7. Per la documentazione completa andare nella cartella "docs" e consultare il pdf "Documentazione.pdf".
 
 ![Screenshot](PSD.jpg)
