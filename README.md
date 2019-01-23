@@ -7,3 +7,5 @@ Procedure per l'avvio del SistemaPrimaryBackup:
 5. aspettare qualche minuto affinchè i container vengano creati e avviati
 6. Nella pagina che si aprirà sul browser testare l'applicazione mediante le api messe a disposizione, se la pagina non viene aperta digitare sul browser "localhost:8086/ReaderFE/" e continuare
 7. Per la documentazione completa vedere il pdf "Documentazione.pdf".
+
+![Screenshot](PSD.png)
